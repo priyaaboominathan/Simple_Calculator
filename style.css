@@ -1,0 +1,122 @@
+ body{
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.calculator{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(4,65px);
+    grid-template-rows: repeat(6,65px);
+    background: #b8e5bb;
+box-shadow:  -7px -7px 14px #86a789,
+             7px 7px 14px #eaffed;
+    border-radius: 5%;
+    padding: 15px;
+    border:none;
+  
+}
+input{
+    grid-column: span 4;
+    text-align: end;
+    padding: 25px;
+    margin-top: 25px 0 ;
+    
+    background: #b8e5bb;
+    box-shadow:  -7px -7px 14px #86a789,
+                 7px 7px 14px #eaffed;
+                 border: none;
+   
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 10%;
+    color: black;
+}
+input:focus{
+    outline:0;
+}
+button{
+    
+    border-radius: 50%;
+    margin: 3px;
+     margin-top: 15px;
+    font-size: 20px;
+    font-weight: 25px;
+    text-align: center;
+    background: #b8e5bb;
+    box-shadow:  -7px -7px 14px #86a789,
+                 7px 7px 14px #eaffed;
+             border: none;
+
+   cursor: pointer;
+   color: rgb(60, 155, 96);
+}
+#eql{
+    grid-column:span 2 ;
+    border-radius: 20%;
+}
+.operators{
+    color: rgb(179, 149, 16);
+} 
+
+
+/*.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  #output-screen {
+    grid-column: 1 / -1;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .operators {
+    background-color: #f7a62a;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #d4d4d4;
+  }
+  
+  button:active {
+    background-color: #bfbfbf;
+  }*/
+  
